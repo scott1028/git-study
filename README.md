@@ -19,3 +19,5 @@ $ git clone http://localgitlab/test/git-study.git	← 此時 submodule 資料夾
 $ git submodule init								← Prepare Submodule 資訊
 $ git submodule update								← 抓下 submodule 檔案
 ```
+
+![Alt text](https://raw.githubusercontent.com/scott1028/git-study/master/submodule01.png "submodule01.png")
