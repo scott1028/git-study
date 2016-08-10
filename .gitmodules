@@ -1,0 +1,3 @@
+[submodule "lib/git-study"]
+	path = lib/git-study
+	url = https://github.com/scott1028/git-study.git
