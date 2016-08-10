@@ -12,7 +12,7 @@ git commit -am "add submodule"
 git push origin
 ```
 
-#### 從 Remote 抓 Code 下來
+#### 從 Remote 抓 Code 下來(git clone repository which include some submodules)
 
 ```
 $ git clone http://localgitlab/test/git-study.git	← 此時 submodule 資料夾為空
