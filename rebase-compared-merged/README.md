@@ -81,3 +81,9 @@ const main = () => {
 scott@scott-mint:~/workspace/git-study/rebase-compared-merged/git-rerere$ 
 ```
 
+# `Rerere` in `.gitconfig`
+
+```
+[rerere]
+        enabled = true
+```
