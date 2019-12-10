@@ -57,3 +57,27 @@ scott@scott-mint:~/workspace/git-study/rebase-compared-merged/git-rerere$ ls .gi
 b25c5e3701a202557c4d7eaaad1c2552d0bb9a09
 scott@scott-mint:~/workspace/git-study/rebase-compared-merged/git-rerere$ 
 ```
+
+- A resolution recorded in `.git/rr-cache` folder and it will be used when we encounter same situation like `preimage`.
+
+```
+scott@scott-mint:~/workspace/git-study/rebase-compared-merged/git-rerere$ cat .git/rr-cache/b25c5e3701a202557c4d7eaaad1c2552d0bb9a09/preimage 
+'use strict';
+
+const main = () => {
+<<<<<<<
+=======
+    console.log('History#1', 'History#2.5', 'History#3');
+>>>>>>>
+};
+
+scott@scott-mint:~/workspace/git-study/rebase-compared-merged/git-rerere$ cat .git/rr-cache/b25c5e3701a202557c4d7eaaad1c2552d0bb9a09/postimage 
+'use strict';
+
+const main = () => {
+    console.log('History#1', 'History#2.5', 'History#3', 'Should be deleted');
+};
+
+scott@scott-mint:~/workspace/git-study/rebase-compared-merged/git-rerere$ 
+```
+
