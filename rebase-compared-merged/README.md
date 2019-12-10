@@ -10,10 +10,11 @@ git checkout feature
 git rebase master
 ```
 
+###### Note: When you are use `rebase`, compared with same file of last commit, please don't let conflict file no any changes
+
 - By `merge` way, if there are logs conflict `commit`, it only casue one manual conflict resolution.
 
 ```
 git checkout feature
 git merge master
 ```
-
