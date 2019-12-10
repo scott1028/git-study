@@ -89,3 +89,5 @@ scott@scott-mint:~/workspace/git-study/rebase-compared-merged/git-rerere$
 [rerere]
         enabled = true
 ```
+
+####### Reference: https://medium.com/@kmsh3ng/%E4%BD%BF%E7%94%A8-git-rerere-%E8%87%AA%E5%8B%95%E8%A7%A3%E9%99%A4%E5%90%8C%E9%A1%9E%E5%9E%8B%E7%9A%84%E8%A1%9D%E7%AA%81-1f60748ce55b
