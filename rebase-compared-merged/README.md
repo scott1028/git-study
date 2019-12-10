@@ -60,6 +60,8 @@ scott@scott-mint:~/workspace/git-study/rebase-compared-merged/git-rerere$
 
 - A resolution recorded in `.git/rr-cache` folder and it will be used when we encounter same situation like `preimage`.
 
+###### `preimage`: conflict situation you encounter, `postimage` resolution you should use.
+
 ```
 scott@scott-mint:~/workspace/git-study/rebase-compared-merged/git-rerere$ cat .git/rr-cache/b25c5e3701a202557c4d7eaaad1c2552d0bb9a09/preimage 
 'use strict';
